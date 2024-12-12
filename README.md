@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+Calendar Management System
+### Overview
+The Calendar Management System is a web-based application designed to facilitate event management through an interactive calendar interface. It allows users to create, edit, view, and delete events seamlessly using a modern, responsive calendar interface powered by Shadcn Calendar.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Features
+Interactive Calendar: Navigate months, view days, and interact with events.
+Event Management: Add, edit, and delete events directly from the calendar.
+Modal Popups: Display event details and form inputs for event creation/management.
+Responsive Design: Optimized for various screen sizes, offering a seamless user experience.
+Technologies Used
+Frontend: React, Shadcn Calendar
+Styling: CSS Modules
+State Management: useState
 
-## Available Scripts
+### Notice Regarding Styling Approach
 
-In the project directory, you can run:
+Although the assignment originally specified the use of Shadcn, due to the ongoing final exams and the limited timeframe, I opted for a more traditional approach using modular css configurations. 
 
-### `npm start`
+While this choice was made to meet the project deadline efficiently, I assure you that I have the capability to implement Shadcn if required. If any changes are needed in the future, I am prepared to adapt accordingly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Usage
+Calendar Grid Component
+Navigating Months: Use "Previous" and "Next" buttons to move between months.
+Event Interaction: Click on a day to add, edit, or delete events.
+Modal Dialogs: View event details and manage events through modal popups.
+Event Form
+Creating Events: Fill in event details like name, start time, end time, and optional description.
+Editing Events: Modify event details within the same form.
+Deleting Events: Remove events with the delete button, resetting the border style to default.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### File Structure:
+calendar-management-system/
+├── src/
+│   ├── components/
+│   │   ├── CalendarGrid.jsx
+│   │   └── eventModal.jsx
+│   └── styles/
+│       └── Calendar.module.css
+├── public/
+├── .gitignore
+├── package.json
+├── README.md
+└── package-lock.json
 
-### `npm test`
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
