@@ -1,0 +1,163 @@
+.container{
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Adds the blur effect */
+}
+
+.weekdays, .days, .weekRow {
+  display: flex;
+}
+
+.weekdays div, .days div {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.days {
+  flex-direction: column;
+}
+
+.day {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+
+
+.weekRow {
+  display: flex;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  gap: 0;
+}
+
+.header h2{
+  font-size: 2rem;
+}
+
+.headerBtns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  gap: 3rem;
+  font-size: 1rem;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalContent form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 22rem; /* Ensure content fits within 25rem width */
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  height: 20px;  /* Set a fixed height for the textarea */
+}
+
+button {
+  font-size: 1rem;
+  background-color: #1e3f2b;
+  color: #fffbf9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.displayBtns{
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #324b3c;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 25rem;
+  height: 30rem;  /* Height: 30rem */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center;   /* Center horizontally */
+}
+
+.modalContent h3 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+  margin-top: -3rem;
+}
+
+.modalContent p {
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+
+.close {
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  align-self: flex-start;
+  left: 23.5rem;
+  font-size: 3rem;
+}
+
+.close2 {
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  align-self: flex-start;
+  left: 23.5rem;
+  font-size: 3rem;
+  top: -5.2rem;
+}
+

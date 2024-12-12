@@ -1,0 +1,14 @@
+.AppHeader{
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  .AppHeader h1{
+    font-size: 3rem;
+    color: #1e3f2b;
+  }
+  
+  .AppHeader h2{
+    color: #2c4d39;
+  }
+  
